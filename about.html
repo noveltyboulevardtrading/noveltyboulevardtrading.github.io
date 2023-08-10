@@ -13,6 +13,21 @@
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
 </head>
 
+
+<style>
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+
+  .video-wrapper {
+    max-width: 100%;
+  }
+</style>
+
+
 <body style="background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(&quot;assets/img/Bg123.png&quot;);">
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark py-lg-4" id="mainNav" style="background: rgb(0,71,142);border-style: solid;">
         <div class="container"><a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#" style="font-size: 17px;font-weight: bold;text-align: center;color: rgb(255,255,255);">Novelty Boulevard Trading</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -28,10 +43,13 @@
     </nav>
     <h1 class="text-center text-white d-none d-lg-block site-heading"><span class="site-heading-lower" style="font-size: 42px;font-weight: bold;">More than just clothing</span></h1>
     <section class="page-section about-heading">
-        <div class="container"><video class="img-fluid rounded about-heading-img mb-3 mb-lg-0" autoplay loop controls disablePictureInPicture>
-        <source src="assets/img/noveltyxcarelon.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+        <div class="container"><div class="video-container">
+  <div class="video-wrapper">
+    <video class="img-fluid rounded about-heading-img" autoplay loop controls disablePictureInPicture>
+      <source src="assets/img/noveltyxcarelon.mp4" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
+  </div>
 </div>
             <div class="about-heading-content">
                 <div class="row">
